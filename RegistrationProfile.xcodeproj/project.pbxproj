@@ -8,22 +8,56 @@
 
 /* Begin PBXBuildFile section */
 		AFC55A2429B780DD0002C831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC55A2329B780DD0002C831 /* AppDelegate.swift */; };
-		AFC55A2629B780DD0002C831 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC55A2529B780DD0002C831 /* SceneDelegate.swift */; };
-		AFC55A2829B780DD0002C831 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC55A2729B780DD0002C831 /* ViewController.swift */; };
-		AFC55A2B29B780DD0002C831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC55A2929B780DD0002C831 /* Main.storyboard */; };
 		AFC55A2D29B780DE0002C831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC55A2C29B780DE0002C831 /* Assets.xcassets */; };
 		AFC55A3029B780DE0002C831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC55A2E29B780DE0002C831 /* LaunchScreen.storyboard */; };
+		AFC55A3F29B784A70002C831 /* MainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC55A3E29B784A70002C831 /* MainTableView.swift */; };
+		AFC55A4229B784D90002C831 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC55A4129B784D90002C831 /* Resources.swift */; };
+		AFC55A4729B785180002C831 /* String + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC55A4629B785180002C831 /* String + Extension.swift */; };
+		AFC55A4929B7852A0002C831 /* Date + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC55A4829B7852A0002C831 /* Date + Extension.swift */; };
+		AFC55A4C29B7854E0002C831 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC55A4B29B7854E0002C831 /* UIView + Extension.swift */; };
+		AFC55A4E29B785690002C831 /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC55A4D29B785690002C831 /* UIViewController + Extension.swift */; };
+		AFC55A5029B785830002C831 /* UIBarButtonItem + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC55A4F29B785830002C831 /* UIBarButtonItem + Extension.swift */; };
+		AFC55A5229B785990002C831 /* UITableView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC55A5129B785990002C831 /* UITableView + Extension.swift */; };
+		AFC55A5429B785F70002C831 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC55A5329B785F70002C831 /* MainViewController.swift */; };
+		AFC55A5629B7861C0002C831 /* UserModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC55A5529B7861C0002C831 /* UserModels.swift */; };
+		AFC55A5829B7864F0002C831 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC55A5729B7864F0002C831 /* MainTableViewCell.swift */; };
+		AFC55A5B29B7868A0002C831 /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC55A5A29B7868A0002C831 /* UserDefaultsHelper.swift */; };
+		AFC55A6129B788F60002C831 /* EditingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC55A6029B788F60002C831 /* EditingTableViewController.swift */; };
+		AFC55A6329B789390002C831 /* TextViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC55A6229B789390002C831 /* TextViewTableViewCell.swift */; };
+		AFC55A6529B7895B0002C831 /* DatePickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC55A6429B7895B0002C831 /* DatePickerTableViewCell.swift */; };
+		AFC55A6729B7897A0002C831 /* PickerViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC55A6629B7897A0002C831 /* PickerViewTableViewCell.swift */; };
+		AFC55A6929B789A10002C831 /* NameTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC55A6829B789A10002C831 /* NameTextView.swift */; };
+		AFC55A6B29B789B40002C831 /* SexPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC55A6A29B789B40002C831 /* SexPickerView.swift */; };
+		AFC55A6D29B789F20002C831 /* SexTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC55A6C29B789F20002C831 /* SexTextField.swift */; };
+		AFC55A6F29B78A2B0002C831 /* EditingTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC55A6E29B78A2B0002C831 /* EditingTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AFC55A2029B780DD0002C831 /* RegistrationProfile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegistrationProfile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC55A2329B780DD0002C831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AFC55A2529B780DD0002C831 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AFC55A2729B780DD0002C831 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AFC55A2A29B780DD0002C831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFC55A2C29B780DE0002C831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFC55A2F29B780DE0002C831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFC55A3129B780DE0002C831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFC55A3E29B784A70002C831 /* MainTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableView.swift; sourceTree = "<group>"; };
+		AFC55A4129B784D90002C831 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		AFC55A4629B785180002C831 /* String + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extension.swift"; sourceTree = "<group>"; };
+		AFC55A4829B7852A0002C831 /* Date + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + Extension.swift"; sourceTree = "<group>"; };
+		AFC55A4B29B7854E0002C831 /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
+		AFC55A4D29B785690002C831 /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
+		AFC55A4F29B785830002C831 /* UIBarButtonItem + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem + Extension.swift"; sourceTree = "<group>"; };
+		AFC55A5129B785990002C831 /* UITableView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView + Extension.swift"; sourceTree = "<group>"; };
+		AFC55A5329B785F70002C831 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AFC55A5529B7861C0002C831 /* UserModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModels.swift; sourceTree = "<group>"; };
+		AFC55A5729B7864F0002C831 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		AFC55A5A29B7868A0002C831 /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsHelper.swift; sourceTree = "<group>"; };
+		AFC55A6029B788F60002C831 /* EditingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingTableViewController.swift; sourceTree = "<group>"; };
+		AFC55A6229B789390002C831 /* TextViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewTableViewCell.swift; sourceTree = "<group>"; };
+		AFC55A6429B7895B0002C831 /* DatePickerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerTableViewCell.swift; sourceTree = "<group>"; };
+		AFC55A6629B7897A0002C831 /* PickerViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewTableViewCell.swift; sourceTree = "<group>"; };
+		AFC55A6829B789A10002C831 /* NameTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameTextView.swift; sourceTree = "<group>"; };
+		AFC55A6A29B789B40002C831 /* SexPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SexPickerView.swift; sourceTree = "<group>"; };
+		AFC55A6C29B789F20002C831 /* SexTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SexTextField.swift; sourceTree = "<group>"; };
+		AFC55A6E29B78A2B0002C831 /* EditingTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +90,144 @@
 		AFC55A2229B780DD0002C831 /* RegistrationProfile */ = {
 			isa = PBXGroup;
 			children = (
+				AFC55A3729B783270002C831 /* Aplications */,
+				AFC55A3A29B783CF0002C831 /* MainModule */,
+				AFC55A5C29B786E20002C831 /* EditingModule */,
+				AFC55A4029B784C00002C831 /* Resources */,
+				AFC55A5929B786780002C831 /* Services */,
+				AFC55A4529B7850D0002C831 /* Extensions */,
+				AFC55A3829B7833A0002C831 /* SupporingFiles */,
+			);
+			path = RegistrationProfile;
+			sourceTree = "<group>";
+		};
+		AFC55A3729B783270002C831 /* Aplications */ = {
+			isa = PBXGroup;
+			children = (
 				AFC55A2329B780DD0002C831 /* AppDelegate.swift */,
-				AFC55A2529B780DD0002C831 /* SceneDelegate.swift */,
-				AFC55A2729B780DD0002C831 /* ViewController.swift */,
-				AFC55A2929B780DD0002C831 /* Main.storyboard */,
+			);
+			path = Aplications;
+			sourceTree = "<group>";
+		};
+		AFC55A3829B7833A0002C831 /* SupporingFiles */ = {
+			isa = PBXGroup;
+			children = (
 				AFC55A2C29B780DE0002C831 /* Assets.xcassets */,
 				AFC55A2E29B780DE0002C831 /* LaunchScreen.storyboard */,
 				AFC55A3129B780DE0002C831 /* Info.plist */,
 			);
-			path = RegistrationProfile;
+			path = SupporingFiles;
+			sourceTree = "<group>";
+		};
+		AFC55A3A29B783CF0002C831 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				AFC55A3B29B783DD0002C831 /* Models */,
+				AFC55A3C29B783E20002C831 /* Views */,
+				AFC55A3D29B783EE0002C831 /* Controllers */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		AFC55A3B29B783DD0002C831 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AFC55A5529B7861C0002C831 /* UserModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AFC55A3C29B783E20002C831 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AFC55A3E29B784A70002C831 /* MainTableView.swift */,
+				AFC55A5729B7864F0002C831 /* MainTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AFC55A3D29B783EE0002C831 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AFC55A5329B785F70002C831 /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AFC55A4029B784C00002C831 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AFC55A4129B784D90002C831 /* Resources.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AFC55A4529B7850D0002C831 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AFC55A4629B785180002C831 /* String + Extension.swift */,
+				AFC55A4829B7852A0002C831 /* Date + Extension.swift */,
+				AFC55A4A29B785390002C831 /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AFC55A4A29B785390002C831 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				AFC55A4B29B7854E0002C831 /* UIView + Extension.swift */,
+				AFC55A4D29B785690002C831 /* UIViewController + Extension.swift */,
+				AFC55A4F29B785830002C831 /* UIBarButtonItem + Extension.swift */,
+				AFC55A5129B785990002C831 /* UITableView + Extension.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		AFC55A5929B786780002C831 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AFC55A5A29B7868A0002C831 /* UserDefaultsHelper.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AFC55A5C29B786E20002C831 /* EditingModule */ = {
+			isa = PBXGroup;
+			children = (
+				AFC55A5D29B786F20002C831 /* Views */,
+				AFC55A5F29B787180002C831 /* Controllers */,
+			);
+			path = EditingModule;
+			sourceTree = "<group>";
+		};
+		AFC55A5D29B786F20002C831 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AFC55A5E29B787010002C831 /* Cell */,
+				AFC55A6829B789A10002C831 /* NameTextView.swift */,
+				AFC55A6A29B789B40002C831 /* SexPickerView.swift */,
+				AFC55A6C29B789F20002C831 /* SexTextField.swift */,
+				AFC55A6E29B78A2B0002C831 /* EditingTableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AFC55A5E29B787010002C831 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AFC55A6229B789390002C831 /* TextViewTableViewCell.swift */,
+				AFC55A6429B7895B0002C831 /* DatePickerTableViewCell.swift */,
+				AFC55A6629B7897A0002C831 /* PickerViewTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		AFC55A5F29B787180002C831 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AFC55A6029B788F60002C831 /* EditingTableViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +290,6 @@
 			files = (
 				AFC55A3029B780DE0002C831 /* LaunchScreen.storyboard in Resources */,
 				AFC55A2D29B780DE0002C831 /* Assets.xcassets in Resources */,
-				AFC55A2B29B780DD0002C831 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +300,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFC55A2829B780DD0002C831 /* ViewController.swift in Sources */,
+				AFC55A6129B788F60002C831 /* EditingTableViewController.swift in Sources */,
+				AFC55A5B29B7868A0002C831 /* UserDefaultsHelper.swift in Sources */,
+				AFC55A6729B7897A0002C831 /* PickerViewTableViewCell.swift in Sources */,
+				AFC55A5829B7864F0002C831 /* MainTableViewCell.swift in Sources */,
+				AFC55A3F29B784A70002C831 /* MainTableView.swift in Sources */,
+				AFC55A5429B785F70002C831 /* MainViewController.swift in Sources */,
+				AFC55A6929B789A10002C831 /* NameTextView.swift in Sources */,
+				AFC55A6F29B78A2B0002C831 /* EditingTableView.swift in Sources */,
+				AFC55A4229B784D90002C831 /* Resources.swift in Sources */,
+				AFC55A4E29B785690002C831 /* UIViewController + Extension.swift in Sources */,
+				AFC55A6529B7895B0002C831 /* DatePickerTableViewCell.swift in Sources */,
+				AFC55A5229B785990002C831 /* UITableView + Extension.swift in Sources */,
+				AFC55A4729B785180002C831 /* String + Extension.swift in Sources */,
+				AFC55A4C29B7854E0002C831 /* UIView + Extension.swift in Sources */,
+				AFC55A5029B785830002C831 /* UIBarButtonItem + Extension.swift in Sources */,
+				AFC55A6D29B789F20002C831 /* SexTextField.swift in Sources */,
 				AFC55A2429B780DD0002C831 /* AppDelegate.swift in Sources */,
-				AFC55A2629B780DD0002C831 /* SceneDelegate.swift in Sources */,
+				AFC55A5629B7861C0002C831 /* UserModels.swift in Sources */,
+				AFC55A4929B7852A0002C831 /* Date + Extension.swift in Sources */,
+				AFC55A6329B789390002C831 /* TextViewTableViewCell.swift in Sources */,
+				AFC55A6B29B789B40002C831 /* SexPickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AFC55A2929B780DD0002C831 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AFC55A2A29B780DD0002C831 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AFC55A2E29B780DE0002C831 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +388,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +442,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,12 +461,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K9BQPL835K;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RegistrationProfile/Info.plist;
+				INFOPLIST_FILE = RegistrationProfile/SupporingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +474,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.my.RegistrationProfile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,12 +492,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K9BQPL835K;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RegistrationProfile/Info.plist;
+				INFOPLIST_FILE = RegistrationProfile/SupporingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +505,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.my.RegistrationProfile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
